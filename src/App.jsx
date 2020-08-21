@@ -7,26 +7,28 @@ import { Switch, Route, Link } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <div className="header">
-        <div className="header-primary">
-          <Logo className="logo" />
-          <div className="other">
-            <div className="search-box">
-              <input className="search-bar" placeholder="Search Products" />
+      <div className="header-container">
+        <div className="header">
+          <div className="header-primary">
+            <Logo className="logo" />
+            <div className="other">
+              <div className="search-box">
+                <input className="search-bar" placeholder="Search Products" />
+              </div>
+              <Link className="btn sign-in" to="/signin">
+                Sign In
+              </Link>
+              <CartIcon className="cart-icon" />
             </div>
-            <Link className="btn sign-in" to="/signin">
-              Sign In
-            </Link>
-            <CartIcon className="cart-icon" />
           </div>
+          <nav className="navigation">
+            <div className="all-products">All Products</div>
+            <Link className="btn">New Arrivals</Link>
+            <Link className="btn">Promotions</Link>
+            <Link className="btn">Back to School</Link>
+            <Link className="btn">Project Inspiration</Link>
+          </nav>
         </div>
-        <nav className="navigation">
-          <div className="all-products">All Products</div>
-          <Link className="btn">New Arrivals</Link>
-          <Link className="btn">Promotions</Link>
-          <Link className="btn">Back to School</Link>
-          <Link className="btn">Project Inspiration</Link>
-        </nav>
       </div>
       <Switch>
         <Route exact path="/">
