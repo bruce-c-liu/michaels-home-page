@@ -1,0 +1,13 @@
+
+<svg width="60px" height="57px" viewBox="0 0 60 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1343.000000, -47.000000)">
+            <g id="cart" transform="translate(1344.000000, 48.000000)">
+                <circle id="Oval" fill="#505050" fill-rule="nonzero" cx="46.5" cy="51.5" r="4.5"></circle>
+                <circle id="Oval" fill="#505050" fill-rule="nonzero" cx="22.5" cy="51.5" r="4.5"></circle>
+                <polygon id="Path" fill="#505050" fill-rule="nonzero" points="50.95 39 19.225 39 11 14 58 14"></polygon>
+                <path d="M0,0 L4.35696,0 C5.89976,0 7.25928,1.03058824 7.69544,2.53411765 L17.58096,36.6235294 C18.16096,38.6235294 19.97288,40 22.03072,40 L47.49504,40 C49.58768,40 51.42048,38.5788235 51.97264,36.5317647 L58,14.1176471 L11.6,14.1176471" id="Path" stroke="#505050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
